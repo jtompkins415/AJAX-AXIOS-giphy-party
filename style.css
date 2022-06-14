@@ -1,0 +1,58 @@
+body{
+    background-color: #2D1E2F;
+}
+h1{
+    background-color: #F7B32B;
+    border-radius: 5px; 
+    font-size: 45px;
+    width: 13em;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left:25rem;
+    box-shadow: 5px 10px #181019;
+    font-family: 'Hammersmith One', sans-serif; ;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    left: 30rem;
+}
+
+#gif-search{
+    background-color: #F28482;
+}
+#submit{
+    font-family: 'Hammersmith One', sans-serif;;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    transition: .4s ease-in;
+    background-color: #F7B32B;
+}
+#submit:hover{
+    color: beige;
+    background: #2D936C;
+    box-shadow: 0 0 5px #2D936C, 0 0 25px #2D936C, 0 0 50px #2D936C, 0 0 200px #2D936C; 
+}
+
+#remove{
+    font-family: 'Hammersmith One', sans-serif;;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    transition: .4s ease-in;
+    background-color: #F7B32B;
+}
+#remove:hover{
+    color: beige;
+    background: #721121;
+    box-shadow: 0 0 5px #721121, 0 0 25px #721121, 0 0 50px #721121, 0 0 200px #721121; 
+}
+
+.giphy-img{
+border: 5px solid #F7B32B;
+margin: 5px 5px 5px 5px;
+}
